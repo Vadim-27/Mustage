@@ -26,6 +26,11 @@
     column-gap: 20px;
     justify-content: center;
   }
+    @media screen and (min-width: 1440px) {
+    
+    column-gap: 16px;
+    
+  }
 }
 .ourServicesItem {
   position: relative;
@@ -37,26 +42,16 @@
   @media screen and (min-width: 768px) {
     width: 519px;
     min-height: 313px;
-    padding-right: 55px;
-    padding-bottom: 58px;
-    padding-left: 20px;
-    padding-top: 30px;
+   
   }
   @media screen and (min-width: 1440px) {
     width: 590px;
-    min-height: 313px;
-    padding-right: 55px;
-    padding-bottom: 58px;
-    padding-left: 20px;
-    padding-top: 30px;
+   
   }
   @media screen and (min-width: 1920px) {
     width: 790px;
     min-height: 285px;
-    padding-right: 55px;
-    padding-bottom: 58px;
-    padding-left: 20px;
-    padding-top: 30px;
+    
   }
 }
 .ourServicesItem:nth-child(even) {
