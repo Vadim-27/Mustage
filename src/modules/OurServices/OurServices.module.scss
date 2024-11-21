@@ -1,0 +1,106 @@
+.wrapperSection {
+  padding-top: 100px;
+  padding-bottom: 89px;
+  background-color: var(--primary-black);
+  @media screen and (min-width: 768px) {
+    padding-bottom: 165px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-bottom: 103px;
+  }
+  @media screen and (min-width: 1920px) {
+    padding-bottom: 258px;
+  }
+}
+.ourServicesList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 65px;
+
+  align-items: center;
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 76px;
+    column-gap: 20px;
+    justify-content: center;
+  }
+}
+.ourServicesItem {
+  position: relative;
+  width: 440px;
+  padding: 30px 20px;
+  border-radius: 15px;
+  border: 1px solid var(--accent-color);
+  box-sizing: border-box;
+  @media screen and (min-width: 768px) {
+    width: 519px;
+    min-height: 313px;
+    padding-right: 55px;
+    padding-bottom: 58px;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 590px;
+    min-height: 313px;
+    padding-right: 55px;
+    padding-bottom: 58px;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+  @media screen and (min-width: 1920px) {
+    width: 790px;
+    min-height: 285px;
+    padding-right: 55px;
+    padding-bottom: 58px;
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+}
+.ourServicesItem:nth-child(even) {
+  background-color: var(--primary-white);
+}
+.ourServicesItem:nth-child(even) .title,
+.ourServicesItem:nth-child(even) .description {
+  color: var(--primary-black);
+}
+.title {
+  position: relative;
+  margin-bottom: 15px;
+  color: var(--primary-white);
+  font-family: Jura;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 10;
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+.description {
+  color: var(--primary-white);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128.004%; /* 25.601px */
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+  }
+}
+.wrapperBtn {
+  width: 318px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.icon {
+  position: absolute;
+  left: 11px;
+  top: 22px;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}

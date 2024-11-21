@@ -1,0 +1,12 @@
+.wrapper{
+    background: url("../../public/bgImg/bg480.jpg");
+    @media screen and (min-width: 768px) {
+       background: url("../../public/bgImg/bg768.jpg"); 
+    }
+     @media screen and (min-width: 1440px) {
+       background: url("../../public/bgImg/bg1400.jpg"); 
+    }
+      @media screen and (min-width: 1920px) {
+       background: url("../../public/bgImg/bg1920.jpg"); 
+    }
+}

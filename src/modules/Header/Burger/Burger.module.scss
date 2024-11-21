@@ -1,0 +1,43 @@
+.wrapperBurgerMenu {
+  position: relative;
+  padding-bottom: 130px;
+  padding-left: 50px;
+  padding-top: 111px;
+  background-color: var(--primary-black);
+}
+.closeButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.drawer {
+  .EZDrawer__container {
+    background-color: black;
+  }
+}
+.burgerLinkList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.burgerNameLanguage {
+  width: 40px;
+  height: 48px;
+  padding: 7px;
+
+  color: var(--primary-white);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.closeIcon {
+  stroke: white;
+  width: 24px;
+  height: 24px;
+}
